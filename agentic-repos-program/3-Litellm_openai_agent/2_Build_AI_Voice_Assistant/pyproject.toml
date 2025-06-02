@@ -1,0 +1,13 @@
+[project]
+name = "2-build-ai-voice-assistant"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "litellm>=1.72.0",
+    "pyaudio>=0.2.14",
+    "python-dotenv>=1.1.0",
+    "pyttsx3>=2.98",
+    "speechrecognition>=3.14.3",
+]
